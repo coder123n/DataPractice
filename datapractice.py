@@ -20,4 +20,6 @@ if "6th" in jlife["classes"]:
 	print("has 6th period")
 else:
 	print("no 6th period")
-	
+peeps=[jlife,jolife,jonlife]
+print(peeps[0]["name"])
+print(peeps[2]["classes"]["3rd"])
